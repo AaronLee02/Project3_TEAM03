@@ -1,0 +1,43 @@
+div {
+  background-color: rgb(162, 127, 243);
+  color: rgb(255, 255, 255);
+  padding: 40px;
+  font-family: 고딕;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  background-color: #2EFE2E;
+  padding: 10px;
+  font-family: 궁서;
+}
+
+.section {
+  padding: 1rem;
+}
+
+.contents {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap : 2rem;
+}
+
+.header {
+  padding: 1rem 2rem;
+  background-color: #3b5998;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  color: #fff;
+}
+
+.header select {
+  height: 30px;
+  width: 140px;
+  border-radius: 5px;
+  border: none;
+}
